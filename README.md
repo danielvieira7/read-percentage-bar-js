@@ -2,7 +2,7 @@
 
 This simple pure Javascript plugin, will show a progress bar on the top of your page.
 
-All you need to do is call **read-percentage-bar.js** after the </body> tag and add this:
+All you need to do is call **read-percentage-bar.js** after the `</body>` tag and add this:
 
 ```
 readPercentageBar({
