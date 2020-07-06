@@ -1,9 +1,16 @@
+/************************
+
+Author: Daniel Vieira
+Twitter: @DanielVieira7
+
+************************/
+
 /**
 
-This script need to be called after </body> like this:
+This script needs to be called after </body> like this:
 
 readPercentageBar({
-    wrapClass: '#content',
+    wrapClass: '.your_class_or_id',
     height: '4px',
     bgcolor: '#6633cc'
 })
@@ -18,7 +25,7 @@ let params = {
 
 readPercentageBar(params)
 
-*/
+**/
 
 function readPercentageBar(params){
     let bar = document.createElement("div")
